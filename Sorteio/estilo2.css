@@ -1,0 +1,43 @@
+header{
+    font-family: Verdana;
+}
+h1{
+    font-size: 25pt;
+    padding-top: 35px;
+    text-align: center;
+}
+p, h1{
+    color: white;
+}
+input{
+    width: 100px;
+    margin: auto;
+}
+.botao{
+    width: 70px;
+    height: 30px;
+    font-size: 15pt;
+
+}
+.btn{
+    width: 70px;
+    margin: auto;
+}
+.sorteio, .pares{
+    margin: auto;
+    text-align: center;
+    background-color: rgb(241, 195, 208);
+    width: 500px;
+    padding: 10px;
+}
+p{
+    text-align: center;
+    font-size: 15pt;
+}
+section{
+    background-color: rgb(172, 116, 147);
+    width: 600px;
+    height: 480px;
+    border-radius: 20px;
+    margin: auto;
+}

@@ -1,0 +1,14 @@
+.botoes{
+    width: 434px;
+    margin: auto;
+}
+.botoes input, button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.tabela{
+    width: 434px;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+}

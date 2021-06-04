@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Página Inicial</title>
+        <meta charset="utf-8">
+        <style>
+            #cronometro{
+                background-color: rgb(247, 152, 168);
+                line-height: 400px;
+                font-size: 90pt;
+                text-align: center;
+            }
+            #slideshow{
+                background-color: rgb(133, 133, 233);
+                display: none;
+            }
+            #tabuada{
+                background-color: rgb(132, 236, 132);
+                display: none;
+            }
+            div{
+                width: 500px;
+                height: 400px;
+                border-top-right-radius: 20px;
+                border-bottom-left-radius: 20px;
+                border-bottom-right-radius: 20px;
+                margin-top: 5px;
+            }
+            img{
+                width: 150px;
+                height: 150px;
+            }
+            .caixa{
+                width: 500px;
+                height: 400px;
+                margin: auto;
+            }
+            button{
+                background-color: rgb(252, 252, 94);
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                width: 100px;
+                height: 30px;
+                font-size: 12pt;
+            }
+            .botao{
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+                border-bottom-left-radius: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="caixa">
+            <button type="button" id="btn1">Cronômetro</button>
+            <button type="button" id="btn2">Slide Show</button>
+            <button type="button" id="btn3">Tabuada</button>
+
+            <div id="cronometro"></div>
+            <div id="slideshow">
+                <img src="imagens/img1.png" id="imagem">
+                <button type="button" id="anterior" class="botao">Anterior</button>
+                <button type="button" id="proximo" class="botao">Próximo</button>
+            </div>
+            <div id="tabuada">
+                <input type="text" id="tab">
+                <button type="button" id="calctab" class="botao">Calcular</button>
+                <div id="res"></div>
+            </div>
+        </div>
+        <script src="js/jquery.min.js""></script>
+        <script src="js/cinco.js"></script>
+    </body>
+</html>
